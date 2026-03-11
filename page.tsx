@@ -22,6 +22,6 @@ export default function Home() {
                 <CTA />
                 <Footer />
                 <WhatsAppFloat />
-          </main>main>
+          </main>
         );
-}</main>
+}
