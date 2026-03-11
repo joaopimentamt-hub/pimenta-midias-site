@@ -57,13 +57,12 @@ const benefits = [
 ];
 
 export default function Benefits() {
-  const ref = useScrollReveal();
 
   return (
     <section id="beneficios" className="relative py-24 sm:py-32">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
 
-      <div ref={ref} className="reveal max-w-7xl mx-auto px-5 sm:px-8">
+      <div className="reveal max-w-7xl mx-auto px-5 sm:px-8">
         {/* Header */}
         <div className="text-center mb-16 sm:mb-20">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-[#E63946]/10 border border-[#E63946]/20 rounded-full mb-5">
