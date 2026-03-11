@@ -10,7 +10,6 @@ import {
   CheckCircle2,
   ArrowUpRight,
 } from "lucide-react";
-import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const benefits = [
   {
